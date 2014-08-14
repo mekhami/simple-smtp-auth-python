@@ -1,5 +1,5 @@
 import smtplib
-import sys, argparse
+import sys
 
 def is_authenticated(server, port, username, password):
 	s = smtplib.SMTP(server, port)
